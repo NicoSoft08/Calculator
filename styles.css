@@ -1,0 +1,63 @@
+.container {
+    width: 175px;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.display_screen {
+    text-align: end;
+    border: 1px solid black;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(198, 237, 255);
+}
+
+.box_buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.operators {
+    margin-left: 10px;
+}
+
+.operators2 {
+    margin-left: 5px;
+}
+
+.line4, .line3, .line2, .line1 {
+    margin-top: 5px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#ce {
+    background-color: skyblue;
+}
+
+#c {
+    background-color: red;
+}
+
+#equal {
+    background-color: yellow;
+}
+
+#plus {
+    background-color: lightgreen;
+    height: 64px;
+}
+
+#zero {
+    width: 64px;
+}
